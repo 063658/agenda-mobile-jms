@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  background: #f0f0f0;
+}
+
+h1 {
+  text-align: center;
+}
+
+form,
+.agenda {
+  background: white;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input,
+textarea,
+select {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  width: 100%;
+}
+
+.dia {
+  margin-top: 20px;
+}
+
+.servico {
+  background: #e0e0e0;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+}

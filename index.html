@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agenda de Serviços</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Agenda de Serviços</h1>
+
+  <form id="form-agenda">
+    <label>Dia da Semana
+      <select id="dia">
+        <option value="segunda">Segunda</option>
+        <option value="terca">Terça</option>
+        <option value="quarta">Quarta</option>
+        <option value="quinta">Quinta</option>
+        <option value="sexta">Sexta</option>
+        <option value="sabado">Sábado</option>
+      </select>
+    </label>
+    <label>Horário
+      <input type="time" id="hora" required />
+    </label>
+    <label>Endereço
+      <input type="text" id="endereco" required />
+    </label>
+    <label>Nome do Condomínio (opcional)
+      <input type="text" id="condominio" />
+    </label>
+    <label>Valor do Serviço
+      <input type="text" id="valor" />
+    </label>
+    <label>Descrição
+      <textarea id="descricao"></textarea>
+    </label>
+    <label>Telefone
+      <input type="text" id="telefone" />
+    </label>
+    <button type="submit">Salvar Serviço</button>
+  </form>
+
+  <div id="agenda" class="agenda"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
